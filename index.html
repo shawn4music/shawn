@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>SHAWN — Artist</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         BACKGROUND MUSIC
+    ====================================================== -->
+
+    <audio
+        id="background-music"
+        src="./music/background.mp3"
+        loop
+        preload="auto"
+    ></audio>
+
+
+
+    <!-- =====================================================
+         NAVIGATION
+    ====================================================== -->
+
+    <header class="nav">
+
+        <a href="#" class="logo">
+            SHAWN
+        </a>
+
+
+        <nav class="nav-links">
+
+            <button
+                type="button"
+                data-page="0"
+            >
+                Home
+            </button>
+
+            <button
+                type="button"
+                data-page="1"
+            >
+                About
+            </button>
+
+            <button
+                type="button"
+                data-page="2"
+            >
+                Music
+            </button>
+
+            <button
+                type="button"
+                data-page="3"
+            >
+                Visuals
+            </button>
+
+            <button
+                type="button"
+                data-page="4"
+            >
+                Collaborate
+            </button>
+
+            <button
+                type="button"
+                data-page="5"
+            >
+                Contact
+            </button>
+
+        </nav>
+
+
+
+        <!-- =================================================
+             MUSIC CONTROL
+        ================================================== -->
+
+        <button
+            class="music-control"
+            id="music-control"
+            type="button"
+            aria-label="Turn music on"
+        >
+
+            <span class="music-icon">
+
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </span>
+
+            <span
+                class="music-label"
+                id="music-label"
+            >
+                SOUND OFF
+            </span>
+
+        </button>
+
+    </header>
+
+
+
+    <!-- =====================================================
+         MAIN SLIDER
+    ====================================================== -->
+
+    <main class="slider">
+
+
+        <!-- =================================================
+             HOME
+        ================================================== -->
+
+        <section class="page home active">
+
+            <div class="home-image"></div>
+
+
+            <div class="home-content">
+
+                <p class="eyebrow">
+                    POP / ALTERNATIVE ARTIST
+                </p>
+
+                <h1>
+                    SHAWN
+                </h1>
+
+                <p class="location">
+                    MELBOURNE, AUSTRALIA
+                </p>
+
+            </div>
+
+
+            <div class="scroll">
+
+                <span></span>
+
+                SCROLL
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             ABOUT
+        ================================================== -->
+
+        <section class="page about">
+
+            <div class="content">
+
+                <p class="number">
+                    01 — ABOUT
+                </p>
+
+
+                <h2>
+                    ABOUT<br>
+                    SHAWN
+                </h2>
+
+
+                <div class="about-copy">
+
+                    <p>
+                        Shawn Perera is an emerging pop and
+                        alternative artist born in Sri Lanka
+                        and currently based in Melbourne,
+                        Australia.
+                    </p>
+
+
+                    <p>
+                        His artistic direction explores the
+                        space between traditional Sri Lankan
+                        influences and contemporary pop and
+                        alternative sounds.
+                    </p>
+
+
+                    <p>
+                        Through music, SHAWN aims to connect
+                        cultures, experiences and emotions
+                        while developing a sound that is
+                        uniquely his own.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- ABOUT VIDEO -->
+
+            <div class="about-video-wrapper">
+
+                <video
+                    class="about-video"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    preload="auto"
+                >
+
+                    <source
+                        src="./videos/video.mp4"
+                        type="video/mp4"
+                    >
+
+                    Your browser does not support HTML5 video.
+
+                </video>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             MUSIC
+        ================================================== -->
+
+        <section class="page music">
+
+            <div class="content">
+
+                <p class="number">
+                    02 — MUSIC
+                </p>
+
+
+                <h2>
+                    COMING<br>
+                    SOON
+                </h2>
+
+
+                <p class="subtext">
+                    New music from SHAWN.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             VISUALS
+        ================================================== -->
+
+        <section class="page visuals">
+
+            <div class="content">
+
+                <p class="number">
+                    03 — VISUALS
+                </p>
+
+
+                <h2>
+                    VISUALS
+                </h2>
+
+
+                <p class="subtext">
+                    Music. Movement. Story.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             COLLABORATE
+        ================================================== -->
+
+        <section class="page collaborate">
+
+            <div class="content">
+
+                <p class="number">
+                    04 — COLLABORATE
+                </p>
+
+
+                <h2>
+                    LET'S<br>
+                    CREATE.
+                </h2>
+
+
+                <p class="subtext">
+                    Artists · Producers · Creatives
+                </p>
+
+
+                <a
+                    href="mailto:YOUR-EMAIL@example.com"
+                    class="text-link"
+                >
+                    START A CONVERSATION →
+                </a>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             CONTACT
+        ================================================== -->
+
+        <section class="page contact">
+
+            <div class="content">
+
+                <p class="number">
+                    05 — CONTACT
+                </p>
+
+
+                <h2>
+                    GET IN<br>
+                    TOUCH
+                </h2>
+
+
+                <a
+                    href="mailto:YOUR-EMAIL@example.com"
+                    class="email"
+                >
+                    YOUR-EMAIL@example.com
+                </a>
+
+
+                <div class="socials">
+
+                    <a
+                        href="#"
+                        aria-label="Instagram"
+                    >
+                        Instagram
+                    </a>
+
+                    <a
+                        href="#"
+                        aria-label="YouTube"
+                    >
+                        YouTube
+                    </a>
+
+                    <a
+                        href="#"
+                        aria-label="TikTok"
+                    >
+                        TikTok
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- =====================================================
+         PAGE COUNTER
+    ====================================================== -->
+
+    <div class="page-count">
+
+        <span id="current">
+            01
+        </span>
+
+
+        <span class="line">
+
+            <span id="line-progress"></span>
+
+        </span>
+
+
+        <span>
+            06
+        </span>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
